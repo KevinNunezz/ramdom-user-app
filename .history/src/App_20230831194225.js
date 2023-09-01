@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div>
       {results.map((result) => (
-      <ContactCard key={indexedDB}
+      <ContactCard 
         avatarUrl={result.picture.large}
         name={result.name.first + " " + result.name.last}
         email={result.email}
